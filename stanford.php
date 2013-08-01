@@ -4,9 +4,9 @@ include('weather.class.php');
 
 /* Config Section */
 
-$zip = "USCA1093";					// Input your zip or country code (Stanford)
+$zip = "USCA1093";				// Input your zip or country code (Stanford)
 
-//$zip = "USCA0830";						// Input your zip or country code (Palo Alto)
+//$zip = "USCA0830";				// Input your zip or country code (Palo Alto)
 
 define('DEFAULT_UNITS', "f");			// f=Fahrenheit, c=Celsius
 
@@ -40,8 +40,8 @@ if($zip != '')
 	
 
 <?php
- {
-	echo "<img style=\"vertical-align: middle\" src=\"".$weather['image']."\" alt=\"\" />&nbsp;&nbsp;<strong>".$weather['temp']."</strong>\n";
+{
+  echo "<img style=\"vertical-align: middle\" src=\"".$weather['image']."\" alt=\"\" />&nbsp;&nbsp;<strong>".$weather['temp']."</strong>\n";
 }
 ?>
 
