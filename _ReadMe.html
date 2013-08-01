@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Big Lick Media - Weather Widget</title>
+	<style type="text/css">
+		<!--
+		input.send {
+			background-color: #FFF;
+			border: 1px solid #0072BC;
+			color: #000;
+			font-family: verdana;
+			font-size: 11px;
+			font-weight: bold;
+			width: 100px;
+		}
+		pre {
+			white-space: -moz-pre-wrap;  /* Mozilla, supported since 1999 */
+			white-space: -pre-wrap;      /* Opera 4 - 6 */
+			white-space: -o-pre-wrap;    /* Opera 7 */
+			white-space: pre-wrap;       /* CSS3 - Text module (Candidate Recommendation)*/
+			word-wrap: break-word;       /* IE 5.5+ */
+		}
+		-->
+	</style>
+</head>
+
+<body>
+
+<a href="http://www.BigLickMedia.com/"><img src="gfx/logo.gif" alt="" width="140" height="50" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="home" href="http://www.HotScripts.com/?RID=200517"><img src="gfx/logo_hotscripts.com.gif" alt="Hotscripts.com" width="100" height="43" border="0"></a>
+
+<pre>=====================================================================
+  Script:		php Weather Widget
+  Property:		© Big Lick Media - BigLickMedia.com
+  Author:		D Stewart
+  Version:		1.3
+=====================================================================
+
+
+[Features]:
+   Easy to install and configure
+   Comes with examples to demonstrate how you can implement and display your weather widget
+   Contains colorful, *.png display icons in small and large sizes
+   
+[Installation]:
+<ol>
+	<li>Extract all the files</li>
+	<li>Open any example*.php and make the necessary configuration changes (for cities that do not have a zip code, you must enter a location ID.  To find your location ID, browse or search for your city from the <a href="http://weather.yahoo.com/">Yahoo! Weather</a> home page. The weather ID is in the URL for the forecast page for that city. You can also get the location ID by entering your zip code on the home page. For example, if you search for Zurich, Switzerland on the Yahoo! Weather home page, the forecast page for that city is http://weather.yahoo.com/forecast/SZXX0033.html. The location ID is SZXX0033.</li>
+	<li>Upload files and /icon folder to host (no need to upload /gfx folder)</li>
+	<li>The example files and the /icon folder can be renamed if desired</li>
+</ol>
+   
+[Tips]:
+<ol>
+	<li>Certain countries do not return all three "location" attributes.  For a USA location, the xml data will return <strong>Denver, CO, US</strong>.  Conversely, Amsterdam (whose country code is NLXX0002), will return <strong>Amsterdam, ,NL</strong>.  As you can see, the middle attribute is missing.  This is not a bug in the script.  Instead, data is simply not available for this attribute.  To remedy this, simply remove the missing attribute code snippet from line 37 of weather.class.php (in the Amsterdam example, you would remove <strong>'.$attr[3].', </strong>).  Alternatively, you can always hard code your location and remove the <strong>&lt;?php echo $weather['location'] ?&gt;</strong> altogether!</li>
+	<li>When making changes to the html within the echo tag, place a backslash "<strong>\</strong>" before any quotation mark</li>
+	<li>Display as much or as little as you want.  These are only examples...get creative!</li>
+</ol>
+
+<div style="background-color: #FFFBBA; border: 1px solid #FFC407; padding: 8px; width: 750px"><strong><img src="gfx/sweet_niblets.gif" alt="" width="38" height="64" border="0" align="left" style="margin: 4px 16px 80px 0px">If the weather data isn't being displayed or the xml file is not generated and placed in your server directory -- please don't get all crazy and remove us from your holiday lists! :) -- it is likely your host has allow_url_fopen switched OFF.  If you have access to the php.ini file, switch it to the ON setting or, if you do not have access, replace line two in your "display" file so that it references the alternative version (entitled weather.class.alt.php) which uses the cURL function.  If this doesn't resolve the issue, try changing the chmod of the folder in which all of the weather files reside -- as well as the folder entitled icons -- to 777.  If this doesn't work, try chmoding everything to 777 (it's highly unlikely that this last option would be a necessity).</strong></div>
+
+=====================================================================
+
+
+<strong>Please rate us!</strong></pre>
+
+<table style="margin-left: 50px">									
+	<tr>
+		<td style="width: 165px">
+			<table>
+				<form action="http://www.hotscripts.com/rate/54128.html" method="POST">
+				<tr>
+					<td><p><a class="home" href="http://www.HotScripts.com/?RID=200517"><img src="gfx/logo_hotscripts.com.gif" alt="Hotscripts.com" width="100" height="43" border="0"></a></p></td>
+				</tr>
+				<tr>
+					<td><input type="hidden" name="external" value="1">
+					<select style="margin:0px" name="rate" size="1">
+					<option value="5" selected>Excellent!</option>
+					<option value="4">Very Good&nbsp;&nbsp;&nbsp;&nbsp;</option>
+					<option value="3">Good</option>
+					<option value="2">Fair</option>
+					<option value="1">Poor</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td align="left"><input class="send" style="margin:0px" name="submit" type="submit" value="Rate!"></td>
+				</tr>
+				</form>
+			</table>
+		</td>
+		<td style="width: 165px">
+			<table>
+				<form action="http://www.scripts.com/rate.php" method="POST">
+				<tr>
+					<td><p><a class="home" href="http://www.scripts.com"><img src="gfx/logo_scripts.com.gif" alt="Scripts.com" width="100" height="43" border="0"></a></p></td>
+				</tr>
+				<tr>
+					<td><input type="hidden" name="ID" value="18629">
+					<select style="margin:0px" name="rating" size="1">
+					<option value="5" selected>Excellent!</option>
+					<option value="4">Very Good&nbsp;&nbsp;&nbsp;&nbsp;</option>
+					<option value="3">Good</option>
+					<option value="2">Fair</option>
+					<option value="1">Poor</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td align="left"><input class="send" style="margin:0px" name="submit" type="submit" value="Rate!"></td>
+				</tr>
+				</form>
+			</table>
+		</td>
+		<td>
+			<table>
+				<form action="http://www.scriptsearch.com/cgi-bin/rateit.cgi" method="POST">
+				<tr>
+					<td><p><a class="home" href="http://www.scriptsearch.com"><img src="gfx/logo_scriptsearch.com.gif" alt="ScriptSearch.com" width="100" height="43" border="0"></a></p></td>
+				</tr>
+				<tr>
+					<td><input type="hidden" name="ID" value="10297">
+					<select style="margin:0px" name="rate" size="1">
+					<option value="5" selected>Excellent!</option>
+					<option value="4">Very Good&nbsp;&nbsp;&nbsp;&nbsp;</option>
+					<option value="3">Good</option>
+					<option value="2">Fair</option>
+					<option value="1">Poor</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td align="left"><input class="send" style="margin:0px" name="submit" type="submit" value="Rate!"></td>
+				</tr>
+				</form>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

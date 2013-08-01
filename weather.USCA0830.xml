@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<channel>
+
+<title>Yahoo! Weather - Palo Alto, CA</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Palo_Alto__CA/*http://weather.yahoo.com/forecast/USCA0830_f.html</link>
+<description>Yahoo! Weather for Palo Alto, CA</description>
+<language>en-us</language>
+<lastBuildDate>Mon, 04 May 2009 1:47 pm PDT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Palo Alto" region="CA"   country="US"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="68"   direction="270"   speed="12" />
+<yweather:atmosphere humidity="64"  visibility="999"  pressure="30.06"  rising="0" />
+<yweather:astronomy sunrise="6:10 am"   sunset="8:01 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/us/nws/th/main_142b.gif</url>
+</image>
+<item>
+<title>Conditions for Palo Alto, CA at 1:47 pm PDT</title>
+<geo:lat>37.44</geo:lat>
+<geo:long>-122.14</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Palo_Alto__CA/*http://weather.yahoo.com/forecast/USCA0830_f.html</link>
+<pubDate>Mon, 04 May 2009 1:47 pm PDT</pubDate>
+<yweather:condition  text="Cloudy"  code="26"  temp="68"  date="Mon, 04 May 2009 1:47 pm PDT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/26.gif"/><br />
+<b>Current Conditions:</b><br />
+Cloudy, 68 F<BR />
+<BR /><b>Forecast:</b><BR />
+Mon - Rain. High: 74 Low: 55<br />
+Tue - AM Showers. High: 70 Low: 52<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Palo_Alto__CA/*http://weather.yahoo.com/forecast/USCA0830_f.html">Full Forecast at Yahoo! Weather</a><BR/>
+(provided by The Weather Channel)<br/>
+]]></description>
+<yweather:forecast day="Mon" date="4 May 2009" low="55" high="74" text="Rain" code="12" />
+<yweather:forecast day="Tue" date="5 May 2009" low="52" high="70" text="AM Showers" code="39" />
+<guid isPermaLink="false">USCA0830_2009_05_04_13_47_PDT</guid>
+</item>
+</channel>
+</rss><!-- api1.weather.sp1.yahoo.com uncompressed Mon May  4 16:12:02 PDT 2009 -->

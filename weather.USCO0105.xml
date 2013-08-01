@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<channel>
+
+<title>Yahoo! Weather - Denver, CO</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Denver__CO/*http://weather.yahoo.com/forecast/USCO0105_f.html</link>
+<description>Yahoo! Weather for Denver, CO</description>
+<language>en-us</language>
+<lastBuildDate>Wed, 12 Nov 2008 2:50 pm MST</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Denver" region="CO"   country="US"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="57"   direction="270"   speed="17" />
+<yweather:atmosphere humidity="23"  visibility="999"  pressure="29.88"  rising="2" />
+<yweather:astronomy sunrise="6:42 am"   sunset="4:46 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/us.yimg.com/i/us/nws/th/main_142b.gif</url>
+</image>
+<item>
+<title>Conditions for Denver, CO at 2:50 pm MST</title>
+<geo:lat>39.75</geo:lat>
+<geo:long>-104.96</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Denver__CO/*http://weather.yahoo.com/forecast/USCO0105_f.html</link>
+<pubDate>Wed, 12 Nov 2008 2:50 pm MST</pubDate>
+<yweather:condition  text="Mostly Cloudy"  code="28"  temp="57"  date="Wed, 12 Nov 2008 2:50 pm MST" />
+<description><![CDATA[
+<img src="http://l.yimg.com/us.yimg.com/i/us/we/52/28.gif"/><br />
+<b>Current Conditions:</b><br />
+Mostly Cloudy, 57 F<BR />
+<BR /><b>Forecast:</b><BR />
+Wed - Mostly Cloudy. High: 55 Low: 44<br />
+Thu - Partly Cloudy/Wind. High: 61 Low: 37<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Denver__CO/*http://weather.yahoo.com/forecast/USCO0105_f.html">Full Forecast at Yahoo! Weather</a><BR/>
+(provided by The Weather Channel)<br/>
+]]></description>
+<yweather:forecast day="Wed" date="12 Nov 2008" low="44" high="55" text="Mostly Cloudy" code="27" />
+<yweather:forecast day="Thu" date="13 Nov 2008" low="37" high="61" text="Partly Cloudy/Wind" code="24" />
+<guid isPermaLink="false">USCO0105_2008_11_12_14_50_MST</guid>
+</item>
+</channel>
+</rss><!-- api4.weather.sp1.yahoo.com uncompressed Wed Nov 12 16:02:11 PST 2008 -->

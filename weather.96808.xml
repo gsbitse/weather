@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<channel>
+
+<title>Yahoo! Weather - Honolulu, HI</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Honolulu__HI/*http://weather.yahoo.com/forecast/96808_f.html</link>
+<description>Yahoo! Weather for Honolulu, HI</description>
+<language>en-us</language>
+<lastBuildDate>Wed, 12 Nov 2008 1:53 pm HST</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Honolulu" region="HI"   country="US"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="83"   direction="180"   speed="9" />
+<yweather:atmosphere humidity="54"  visibility="10"  pressure="30.01"  rising="2" />
+<yweather:astronomy sunrise="6:41 am"   sunset="5:51 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/us.yimg.com/i/us/nws/th/main_142b.gif</url>
+</image>
+<item>
+<title>Conditions for Honolulu, HI at 1:53 pm HST</title>
+<geo:lat>21.35</geo:lat>
+<geo:long>-157.93</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Honolulu__HI/*http://weather.yahoo.com/forecast/96808_f.html</link>
+<pubDate>Wed, 12 Nov 2008 1:53 pm HST</pubDate>
+<yweather:condition  text="Partly Cloudy"  code="30"  temp="83"  date="Wed, 12 Nov 2008 1:53 pm HST" />
+<description><![CDATA[
+<img src="http://l.yimg.com/us.yimg.com/i/us/we/52/30.gif"/><br />
+<b>Current Conditions:</b><br />
+Partly Cloudy, 83 F<BR />
+<BR /><b>Forecast:</b><BR />
+Wed - Partly Cloudy. High: 83 Low: 73<br />
+Thu - Partly Cloudy. High: 83 Low: 71<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Honolulu__HI/*http://weather.yahoo.com/forecast/USHI0026_f.html">Full Forecast at Yahoo! Weather</a><BR/>
+(provided by The Weather Channel)<br/>
+]]></description>
+<yweather:forecast day="Wed" date="12 Nov 2008" low="73" high="83" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Thu" date="13 Nov 2008" low="71" high="83" text="Partly Cloudy" code="30" />
+<guid isPermaLink="false">96808_2008_11_12_13_53_HST</guid>
+</item>
+</channel>
+</rss><!-- api3.weather.sp1.yahoo.com uncompressed Wed Nov 12 16:01:45 PST 2008 -->

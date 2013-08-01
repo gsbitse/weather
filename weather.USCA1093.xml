@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Stanford, CA</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Stanford__CA/*http://weather.yahoo.com/forecast/USCA1093_f.html</link>
+<description>Yahoo! Weather for Stanford, CA</description>
+<language>en-us</language>
+<lastBuildDate>Thu, 11 Jul 2013 12:56 am PDT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Stanford" region="CA"   country="US"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="60"   direction="20"   speed="7" />
+<yweather:atmosphere humidity="83"  visibility="10"  pressure="29.96"  rising="2" />
+<yweather:astronomy sunrise="5:55 am"   sunset="8:29 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Stanford, CA at 12:56 am PDT</title>
+<geo:lat>37.42</geo:lat>
+<geo:long>-122.16</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Stanford__CA/*http://weather.yahoo.com/forecast/USCA1093_f.html</link>
+<pubDate>Thu, 11 Jul 2013 12:56 am PDT</pubDate>
+<yweather:condition  text="Cloudy"  code="26"  temp="60"  date="Thu, 11 Jul 2013 12:56 am PDT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/26.gif"/><br />
+<b>Current Conditions:</b><br />
+Cloudy, 60 F<BR />
+<BR /><b>Forecast:</b><BR />
+Wed - Cloudy. High: 77 Low: 54<br />
+Thu - Partly Cloudy. High: 77 Low: 54<br />
+Fri - Sunny. High: 78 Low: 53<br />
+Sat - Sunny. High: 81 Low: 55<br />
+Sun - Sunny. High: 79 Low: 55<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Stanford__CA/*http://weather.yahoo.com/forecast/USCA1093_f.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Wed" date="10 Jul 2013" low="54" high="77" text="Cloudy" code="26" />
+<yweather:forecast day="Thu" date="11 Jul 2013" low="54" high="77" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Fri" date="12 Jul 2013" low="53" high="78" text="Sunny" code="32" />
+<yweather:forecast day="Sat" date="13 Jul 2013" low="55" high="81" text="Sunny" code="32" />
+<yweather:forecast day="Sun" date="14 Jul 2013" low="55" high="79" text="Sunny" code="32" />
+<guid isPermaLink="false">USCA1093_2013_07_14_7_00_PDT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api12.weather.ch1.yahoo.com Thu Jul 11 09:04:04 PST 2013 -->
